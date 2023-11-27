@@ -1,42 +1,64 @@
+.bigCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; 
+}
 .navContainer{
     display: flex;
     align-items: center;
-    gap: 40px;
+    /* gap: 5px; */
     width: 1440px;
+    margin-right: 200px;
     height: 84px;
     flex-shrink: 0; 
     background: var(--neutral-silver, #F5F7FA); 
     
 }
-html, body{
-    margin: 10px;
-    align-items: center;
+
+.span{
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px
 }
 
 .logoNav{
-    display: flex;
-    width: 75px;
-    height: 64px; 
-    gap: 20px;
-    width: 131.49px;
-    height: 40.662px; 
-
-}
-.menuNav{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    /* gap: 50px;  */
+    width: 145px;
+    height: 144px; 
+    gap: 20px;
+    width: 171.49px;
+    height: 80.662px; 
 
+}
+.text{
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.menuNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 0%;
     gap: 100px;
-    width: 1440px;
+    width: 1300px;
     height: 84px;
     flex-shrink: 0;
 
 }
 .loginNav{
-    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 14px; 
 }
 .Login{
     display: flex;
@@ -48,6 +70,8 @@ html, body{
     background-color: white;
     width: 90px;
     border-radius: 6px;
+    font-size: 20px;
+
 }
 .Sign{
     border: 5px solid #4caf4c;
@@ -55,10 +79,12 @@ html, body{
     padding: 10px 20px;
     align-items: center;
     gap: 10px; 
-    width: 100px;
+    width: 120px;
     border-radius: 6px;
     background: var(--brand-primary, #4CAF4F); 
     color: aliceblue;
+    font-size: 20px;
+
 
 }
 
@@ -66,22 +92,54 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
-    flex: 1 0 0; 
+    gap: 16px;
+    align-self: stretch; 
 
 }
-.midContainer{
+.flexer{
     display: flex;
-    padding: 96px 144px;
+    gap: 100px;
+    margin-inline: 75px;
+
+}
+.dot{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    flex-direction: row;
+    margin-left: 650px;
+    
+}
+.dot1{
+    width: 10px;
+    height: 10px; 
+    fill: var(--brand-primary, #4CAF4F); 
+}
+.dot2{
+    width: 10px;
+    height: 10px; 
+    fill: var(--brand-primary, #4CAF4F);
+    opacity: 0.3; 
+}
+.dot3{
+    width: 10px;
+    height: 10px; 
+    fill: var(--brand-primary, #4CAF4F);
+    opacity: 0.3; 
+}
+.midContainer{
+    padding: 96px 250px; 
     align-items: center;
     gap: 104px;
     align-self: stretch; 
     background: var(--neutral-silver, #F5F7FA); 
+    
 
 }
 .illustrate{
     width: 391px;
     height: 407px; 
+    
 }
 
 .Button{
@@ -112,6 +170,14 @@ html, body{
     font-weight: 600;
     line-height: 76px;
     
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0; 
+
 }
 
 .thirdContainer{
@@ -147,4 +213,489 @@ html, body{
     justify-content: space-between;
     align-items: center;
     align-self: stretch; 
+}
+.forthContainer{
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; 
+    justify-content: center;
+    margin-right: 150px;
+    
+
+}
+
+.community{
+    width: 542px; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-left: 250px;
+    
+}
+.who{
+    align-self: stretch; 
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-left: 250px;
+}
+
+.rectangle{
+    width: 50px;
+    height: 49px;
+    flex-shrink: 0; 
+    border-radius: 18px 5px 10px 5px;
+    background: var(--tint-t-5 , #E8F5E9); 
+}
+
+.icon-message{
+    display: flex;
+    width: 267px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; 
+}
+.software{
+    width: 251px; 
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.firstIcon{
+    display: flex;
+    width: 299px;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: var(--neutral-white, #FFF);
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20); 
+}
+.layout{
+    display: flex;
+    width: 1440px;
+    padding: 0px 144px;
+    justify-content: space-between;
+    align-items: center; 
+}
+.fiftContainer{
+    display: flex;
+    width: 1440px;
+    padding: 0px 144px;
+    align-items: center; 
+    gap: 150px;
+    
+}
+.learnmoreSide{
+    display: flex;
+    width: 661px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0; 
+}
+
+.frameIcon{
+    display: flex;
+    width: 442px;
+    height: 433px;
+    padding: 52px 0.467px 52.005px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; 
+    margin-left: 100px;
+}
+
+.unseen{
+    align-self: stretch; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.loremIpsum{
+    align-self: stretch; 
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.three{
+    display: flex;
+    width: 601px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+
+.help{
+    width: 408px; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+}
+.business{
+    width: 408px; 
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+}
+.work{
+    align-self: stretch; 
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.twoheads{
+    width: 48px;
+    height: 48px; 
+}
+
+.sectional{
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0; 
+    margin-left: 100px;
+}
+
+.twoheadsCon{
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+.twoheads{
+    width: 48px;
+    height: 48px; 
+}
+
+.fig1{
+    width: 191px; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; 
+}
+.word1{
+    width: 191px; 
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.palm{
+    width: 48px;
+    height: 48px; 
+}
+.headpalmCon{
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+.statCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+}
+
+.statGeneral{
+display: flex;
+    width: 1440px;
+    padding: 64px 144px;
+    align-items: center;
+    gap: 100px;
+}
+.fingerPurse{
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.girlieCon{
+    display: flex;
+    width: 1440px;
+    padding: 0px 144px;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.girlie{
+    margin-left: 150px;
+}
+.merge{
+    display: flex;
+    width: 661px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0; 
+    margin-right: 100px;
+}
+.design{
+    align-self: stretch; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+}
+.inner{
+    display: flex;
+    width: 601px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+.teslaCon{
+    display: flex;
+    width: 1440px;
+    padding: 32px 144px;
+    align-items: center;
+    gap: 78px; 
+    background: var(--neutral-silver, #F5F7FA); 
+}
+
+.tesla{
+    width: 326px;
+    height: 326px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40); 
+}
+.magna{
+    align-self: stretch; 
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.tim{
+    align-self: stretch; 
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.dragon{
+    align-self: stretch; 
+    color: var(--neutral-l-grey, #89939E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.fram10{
+    display: flex;
+    align-items: center;
+    gap: 41px; 
+}
+.meet{
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.magnaCon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0; 
+}
+
+.magDrag{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch; 
+}
+
+.liner{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch; 
+}
+
+.careCon{
+    display: flex;
+    width: 1110px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; 
+    margin-left: 100px;
+}
+.care{
+    align-self: stretch; 
+    color: var(--neutral-d-grey, #4D4D4D);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; 
+}
+.blog{
+    width: 628px; 
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.imageNav{
+    display: flex;
+    width: 1440px;
+    padding: 0px 144px;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 100px;
+}
+.img18txt{
+    width: 285px; 
+    color: var(--neutral-grey, #717171);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.imgtxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -96px; 
+}
+.readCon{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch; 
+}
+.readmore{
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.euCon{
+    display: flex;
+    width: 1440px;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
+}
+.eu{
+    width: 887px; 
+    color: var(--neutral-black, #263238);
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+.demoCon{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.arr{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding: 5px 2.5px 5px 2.06px;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.Butt{
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+    border: 5px solid #4caf4c;
+    border-radius: 4px;
+    background: var(--brand-primary, #4CAF4F); 
+
+}
+.get{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.last{
+    display: flex;
+    padding: 64px 165px;
+    align-items: flex-start;
+    gap: 125px; 
+    background: var(--neutral-black, #263238); 
 }
